@@ -1,0 +1,33 @@
+{
+  "name": "criando-site-responsivo",
+  "version": "1.0.0",
+  "description": "\"# criando-um-site-responsivo\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oilol357/criando-um-site-responsivo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oilol357/criando-um-site-responsivo/issues"
+  },
+  "homepage": "https://github.com/oilol357/criando-um-site-responsivo#readme",
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0",
+    "ws": "3.3.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "gem": "^2.4.3",
+    "sass": "^1.4.0",
+    "sudo": "^1.0.3"
+  }
+}

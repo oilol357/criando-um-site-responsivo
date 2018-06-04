@@ -1,0 +1,53 @@
+header
+	+clearfix
+	min-height: 250px
+	position: relative
+
+	&:after
+		content: ""
+		display: block
+		position: absolute
+		bottom: 0
+		width: 100%
+		height: 8px
+		+gradient(90deg, $vermelho-escuro, $roxo)
+
+	background:
+		image: url('../images/slide-svg-topo2.svg')
+		position: top center
+		repeat: no-repeat
+		color: $branco
+		attachment: fixed
+		size: 1000px
+
+
+	.logo
+		float: left
+		img
+		  width: 102px
+		  height: 95px
+		  margin-top: -20px
+		  margin-left: 15px
+
+	.logo,
+	.links
+		margin: 30px 0 0
+
+	.links
+		float: right
+
+		nav
+			+breakpoint($tablet1)
+				display: none
+
+			+breakpoint($celular)
+				display: none
+
+			ul
+				li
+					font-family: 'Open Sans', 'sans-serif'
+					display: inline-block
+					margin: 0 20px 0 0
+					a
+						color: $preto
+						text-transform: uppercase

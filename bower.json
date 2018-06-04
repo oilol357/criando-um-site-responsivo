@@ -1,0 +1,28 @@
+{
+  "name": "HTML",
+  "homepage": "https://github.com/oilol357/criando-um-site-responsivo",
+  "authors": [
+    "Alberto"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "font-awesome": "^5.0.13",
+    "bootstrap-sass": "^3.3.7",
+    "breakpoint-sass": "^2.7.1",
+    "sass-flex-mixin": "^1.0.3"
+  },
+  "devDependencies": {
+    "breakpoint-sass": "^2.7.1"
+  }
+}
