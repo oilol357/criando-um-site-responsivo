@@ -69,6 +69,29 @@ body {
   background-color: #fff;
 }
 
+.menu-responsivo
+  a {
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 7px;
+    display: block;
+  }
+
+.menu-responsivo
+  li {
+    border-bottom: 1px solid #fff;
+  }
+
+.menu-responsivo
+  a:hover {
+    background-color: rgba(000,0,0,.4);
+  }
+
+.menu-responsivo
+  a:focus {
+    background-color: rgba(000,0,0,.4);
+  }
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -160,31 +183,6 @@ sup {
   top: -.5em;
 }
 
-a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
-
-a:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
-
-a:not([href]):not([tabindex]) {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:not([href]):not([tabindex]):focus {
-  outline: 0;
-}
 
 pre,
 code,
@@ -511,9 +509,6 @@ code {
   word-break: break-word;
 }
 
-a > code {
-  color: inherit;
-}
 
 kbd {
   padding: 0.2rem 0.4rem;
@@ -2356,10 +2351,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   background-image: none;
 }
 
-a.btn.disabled,
-fieldset:disabled a.btn {
-  pointer-events: none;
-}
+
 
 .btn-primary {
   color: #fff;
@@ -6027,81 +6019,12 @@ button.close {
   background-color: #007bff !important;
 }
 
-a.bg-primary:hover, a.bg-primary:focus,
-button.bg-primary:hover,
-button.bg-primary:focus {
-  background-color: #0062cc !important;
-}
 
-.bg-secondary {
-  background-color: #6c757d !important;
-}
-
-a.bg-secondary:hover, a.bg-secondary:focus,
-button.bg-secondary:hover,
-button.bg-secondary:focus {
-  background-color: #545b62 !important;
-}
-
-.bg-success {
-  background-color: #28a745 !important;
-}
-
-a.bg-success:hover, a.bg-success:focus,
-button.bg-success:hover,
-button.bg-success:focus {
-  background-color: #1e7e34 !important;
-}
 
 .bg-info {
   background-color: #17a2b8 !important;
 }
 
-a.bg-info:hover, a.bg-info:focus,
-button.bg-info:hover,
-button.bg-info:focus {
-  background-color: #117a8b !important;
-}
-
-.bg-warning {
-  background-color: #ffc107 !important;
-}
-
-a.bg-warning:hover, a.bg-warning:focus,
-button.bg-warning:hover,
-button.bg-warning:focus {
-  background-color: #d39e00 !important;
-}
-
-.bg-danger {
-  background-color: #dc3545 !important;
-}
-
-a.bg-danger:hover, a.bg-danger:focus,
-button.bg-danger:hover,
-button.bg-danger:focus {
-  background-color: #bd2130 !important;
-}
-
-.bg-light {
-  background-color: #f8f9fa !important;
-}
-
-a.bg-light:hover, a.bg-light:focus,
-button.bg-light:hover,
-button.bg-light:focus {
-  background-color: #dae0e5 !important;
-}
-
-.bg-dark {
-  background-color: #343a40 !important;
-}
-
-a.bg-dark:hover, a.bg-dark:focus,
-button.bg-dark:hover,
-button.bg-dark:focus {
-  background-color: #1d2124 !important;
-}
 
 .bg-white {
   background-color: #fff !important;
@@ -8808,64 +8731,10 @@ button.bg-dark:focus {
   color: #007bff !important;
 }
 
-a.text-primary:hover, a.text-primary:focus {
-  color: #0062cc !important;
-}
 
-.text-secondary {
-  color: #6c757d !important;
-}
-
-a.text-secondary:hover, a.text-secondary:focus {
-  color: #545b62 !important;
-}
-
-.text-success {
-  color: #28a745 !important;
-}
-
-a.text-success:hover, a.text-success:focus {
-  color: #1e7e34 !important;
-}
-
-.text-info {
-  color: #17a2b8 !important;
-}
-
-a.text-info:hover, a.text-info:focus {
-  color: #117a8b !important;
-}
-
-.text-warning {
-  color: #ffc107 !important;
-}
-
-a.text-warning:hover, a.text-warning:focus {
-  color: #d39e00 !important;
-}
-
-.text-danger {
-  color: #dc3545 !important;
-}
-
-a.text-danger:hover, a.text-danger:focus {
-  color: #bd2130 !important;
-}
-
-.text-light {
-  color: #f8f9fa !important;
-}
-
-a.text-light:hover, a.text-light:focus {
-  color: #dae0e5 !important;
-}
 
 .text-dark {
   color: #343a40 !important;
-}
-
-a.text-dark:hover, a.text-dark:focus {
-  color: #1d2124 !important;
 }
 
 .text-body {

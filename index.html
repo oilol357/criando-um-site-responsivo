@@ -24,95 +24,130 @@
 	 
 
 	<body>
-		<header>
-			<div class="container">
-				<div class="logo">
-					<a href="index.html">
-						<img src="images/logo-topo-pagina-inicial.svg" alt="Logo Topo Tag">
-					</a>
-				</div>
-				
-				<div class="links">
-					<nav>
-						<ul>
-							<li><a href="index.html">Início</a></li>
-							<li><a href="produtos.html">Produtos</a></li>
-							<li><a href="garantia.html">Garantia</a></li>
-							<li><a href="contato.html">Contato</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
-	
-		<main>
-			<!-- Optional JavaScript -->
-		    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+			<nav>
+				<ul class="menu-responsivo">
+					<li><a href="index.html">Início</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="garantia.html">Garantia</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
 
-			<section class="melhorp">
+		<div class="layout">
+			<header>
 				<div class="container">
+					<div class="logo">
+						<a href="index.html">
+							<img src="images/logo-topo-pagina-inicial.svg" alt="Logo Topo Tag">
+						</a>
+					</div>
 					
-					<div class="textocima">
-						<div class="iconcartao">
+					<div class="links">
+						<nav>
+							<ul>
+								<li><a href="index.html">Início</a></li>
+								<li><a href="produtos.html">Produtos</a></li>
+								<li><a href="garantia.html">Garantia</a></li>
+								<li><a href="contato.html">Contato</a></li>
+							</ul>
+						</nav>
 
-							<h1 class="wow bounceInRight" data-wow-delay="0.6s">Melhores Produtos</h1>
+						<a class="toggle" href="javascript:;">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+
+					</div>
+				</div>
+			</header>
+		
+			<main>
+				<!-- Optional JavaScript -->
+			    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+			    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+			    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+				<section class="melhorp">
+					<div class="wow bounceInUp" data-wow-delay="0.6s">
+					<div class="container">
+						
+						<div class="textocima">
+							<div class="iconcartao">
+
+								<h1 class="wow bounceInUp" data-wow-delay="0.6s">Melhores Produtos</h1>
+							</div>
+						</div>
+						
+						<section class="itens">
+							<div class="wow bounceInUp" data-wow-delay="0.6s" data-wow-duration="0.1s">
+								<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+								  <div class="carousel-inner">
+								    <div class="carousel-item active">
+								      <a href="produtos.html"><img class="d-block w-100" src="images/teste-slide2.jpg" alt="First slide"></a>
+								    </div>
+								    <div class="carousel-item">
+								      <a href="produtos.html"><img class="d-block w-100" src="images/teste-slide3.jpg" alt="Second slide"></a>
+								    </div>
+								    <div class="carousel-item">
+								      <a href="produtos.html"><img class="d-block w-100" src="images/teste-slide4.jpg" alt="Third slide"></a>
+								    </div>
+								  </div>
+								  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+								    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								    <span class="sr-only">Previous</span>
+								  </a>
+								  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+								    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								    <span class="sr-only">Next</span>
+								  </a>
+								</div>
+							</div>
+						</section>
+
+						<div class="bota">
+							<a href="produtos.html" class="botao">VER MAIS</a>
+						</div>
+
+					</div>
+				</section>
+				<section class="img-site">
+					<div class="container">
+						<a href="garantia.html">
+							<h1 class="wow bounceInLeft" data-wow-duration="1.5s">GARANTIA</h1>
+							<p class="wow bounceInLeft" data-wow-duration="1.5s">
+								<i class="fa fa-angle-double-right"></i>
+							</p>
+						</a>
+					</div>
+				</section>
+			</main>
+			
+			<footer>
+				<div class="container">
+					<div class="wow zoomIn" data-wow-delay="0.5s" data-wow-duration="2s">
+						<div class="logo-rodape">
+							<a href="index.html">
+								<img src="images/logo-rodape-pagina-inicial.svg" alt="logo rodape">
+							</a>
+							<p>Copyright 2018 ©</p>
 						</div>
 					</div>
-					
-					<section class="itens">
-							<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-							  <div class="carousel-inner">
-							    <div class="carousel-item active">
-							      <a href="#"><img class="d-block w-100" src="images/teste-slide2.jpg" alt="First slide"></a>
-							    </div>
-							    <div class="carousel-item">
-							      <a href="#"><img class="d-block w-100" src="images/teste-slide3.jpg" alt="Second slide"></a>
-							    </div>
-							    <div class="carousel-item">
-							      <a href="#"><img class="d-block w-100" src="images/teste-slide4.jpg" alt="Third slide"></a>
-							    </div>
-							  </div>
-							  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-							    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							    <span class="sr-only">Previous</span>
-							  </a>
-							  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-							    <span class="sr-only">Next</span>
-							  </a>
-							</div>
-					</section>
+				</div>
+			</footer>
+		</div>
 
-					<div class="bota">
-						<a href="#" class="botao">VER MAIS</a>
-					</div>
-
-				</div>
-			</section>
-			<section class="img-site">
-				<div class="container">
-					<a href="#">
-						<h1 class="wow bounceInLeft" data-wow-duration="2s">GARANTIA</h1>
-						<p class="wow bounceInLeft" data-wow-duration="2s">
-							<i class="fa fa-angle-double-right"></i>
-						</p>
-					</a>
-				</div>
-			</section>
-		</main>
-		
-		<footer>
-			<div class="container">
-				<div class="logo-rodape">
-					<a href="index.html">
-						<img src="images/logo-rodape-pagina-inicial.svg" alt="logo rodape">
-					</a>
-					<p>Copyright 2018 ©</p>
-				</div>
-			</div>
-		</footer>
+		<script src="js/jquery/dist/jquery.min.js"></script>
+		<script>
+			$(function(){
+				
+				$('.toggle').click(function(){
+					$('.layout').toggleClass('ativo');
+					$('.menu-responsivo').toggleClass('ativo');
+					$(this).toggleClass('ativo');
+				});
+			});
+		</script>
 	</body>
 </html>  

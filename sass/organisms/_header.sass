@@ -51,3 +51,16 @@ header
 					a
 						color: $preto
 						text-transform: uppercase
+
+						&:hover
+							&:after
+								width: 100%
+
+						&:after
+							content: ""
+							display: table
+							margin: 5px auto 0
+							width: 0%
+							height: 2px
+							background-color: #000
+							+transition(.3s)

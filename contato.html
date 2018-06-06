@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Criando um site</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/geral.css">
+		<link rel="stylesheet" href="css/plugins.css">
+		<link rel="stylesheet" href="css/home.css">
+		<link rel="stylesheet" href="css/contato.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+		<link rel="stylesheet" href="css/flexslider.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<script src="js/bootstrap/bootstrap.js"></script>
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+		<script src="js/main.js"></script>
+		<script src="wow/dist/wow.min.js"></script>
+		<script>
+			new WOW() .init();
+		</script>
+
+	</head>
+	 
+
+	<body>
+
+			<nav>
+				<ul class="menu-responsivo">
+					<li><a href="index.html">Início</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="garantia.html">Garantia</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		<div class="layout">
+			<header>
+			
+				<div class="container">
+					<div class="logo">
+						<a href="index.html">
+							<img src="images/logo-topo-pagina-inicial.svg" alt="Logo Topo Tag">
+						</a>
+					</div>
+					
+					<div class="links">
+						<nav>
+							<ul>
+								<li><a href="index.html">Início</a></li>
+								<li><a href="produtos.html">Produtos</a></li>
+								<li><a href="garantia.html">Garantia</a></li>
+								<li><a href="contato.html">Contato</a></li>
+							</ul>
+						</nav>
+
+						<a class="toggle" href="javascript:;">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</header>
+		
+			<main>
+				<!-- Optional JavaScript -->
+			    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+			    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+			    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+				<section class="melhorc">
+					<div class="container">
+						
+						<div class="textocima">
+							<div class="iconcartao">
+
+								<h1 class="wow jackInTheBox" data-wow-delay="1s">Contatos</h1>
+							</div>
+						</div>
+
+						<section class="contatos">
+							<div class="wow jackInTheBox" data-wow-delay="1s">
+								<div class="container">
+									<div class="contacts">
+										<ul>
+											<li class="li1">
+												<a href="#" target="_blank">
+													<img src="SVG/facebook.svg" alt="">
+												</a>
+											</li>
+											<li class="li2">
+												<p>FACEBOOK</p>
+											</li>
+											<li class="li1">
+												<a href="#" target="_blank">
+													<img src="SVG/whatsapp.svg" alt="">
+												</a>
+											</li>
+											<li class="li2">
+												<p>WHATSAPP</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+
+					</div>
+				</section>
+			</main>
+			
+			<footer>
+				<div class="container">
+					<div class="logo-rodape">
+						<a href="index.html">
+							<img src="images/logo-rodape-pagina-inicial.svg" alt="logo rodape">
+						</a>
+						<p>Copyright 2018 ©</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script>
+			$(function(){
+				
+				$('.toggle').click(function(){
+					$('.layout').toggleClass('ativo');
+					$('.menu-responsivo').toggleClass('ativo');
+					$(this).toggleClass('ativo');
+				});
+			});
+		</script>
+
+	</body>
+</html>  

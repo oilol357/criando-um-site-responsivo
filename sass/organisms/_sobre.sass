@@ -13,7 +13,6 @@ section.melhorp
 		//margin: 100px 0px 0px auto
 
 
-
 	//+flexbox
 	//+align-items(center)
 	//+justify-content(space-around)
@@ -46,12 +45,13 @@ section.melhorp
 
 	.garantia,
 	.textocima,
+	.textobaixo,
 		+make-sm-column(8)
 		+make-sm-column-offset(2)
 		text-align: center
 		margin: auto
 				
-	.textocima
+	.textocima,
 		h1
 			font-size: 36px
 			font-family: ('Fugaz One')
@@ -61,6 +61,19 @@ section.melhorp
 		.iconcartao
 			font-size: 30px
 			margin-bottom: 10px
+
+	.textobaixo
+		h1
+			font-size: 36px
+			font-family: ('Fugaz One')
+			margin-top: 60px
+			margin-bottom: 50px
+			color: white
+
+	.card-group
+		width: 850px
+		height: 480px
+		margin: 0px 0px 30px 120px
 
 	.bota
 		text-align: center
@@ -119,3 +132,17 @@ section.img-site
 		color: white
 		font-size: 30px
 
+
+#units
+	+breakpoint($tablet1)
+		text-align: center
+	+breakpoint($celular)
+		text-align: center
+	.card-group
+		margin: 1px auto 50px auto
+		+breakpoint($tablet1)
+			margin: auto auto 20px auto
+			width: 400px
+		+breakpoint($celular2)
+			display: inline-table
+			width: 250px

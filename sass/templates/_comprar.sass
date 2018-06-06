@@ -1,0 +1,85 @@
+section.melhorcc
+	background:
+		image: url(../images/tijolinho4.jpg)
+		position: center
+		repeat: no-repeat
+		attachment: fixed
+
+section.textos
+	.textos
+		+make-sm-column(8)
+		+make-sm-column-offset(2)
+		text-align: center
+		margin-top: 15px
+		margin-bottom: 35px
+		p
+			+font-size(38px)
+			color: white
+	#txt
+		margin-top: 30px
+		margin-bottom: 60px
+
+	#txt2
+		margin-bottom: 20px
+
+	#txt3
+		margin-top: 10px
+		margin-bottom: 20px
+
+	#txt4
+		margin-top: 10px
+		margin-bottom: 20px
+
+	.caixa
+		margin-top: 40px
+		margin-bottom: 20px
+
+
+.garantia,
+.textocima,
+.textobaixo,
+		+make-sm-column(8)
+		+make-sm-column-offset(2)
+		text-align: center
+		margin: auto
+				
+.textocima,
+	h1
+		font-size: 36px
+		font-family: ('Fugaz One')
+		margin-top: 50px
+		margin-bottom: 5px
+		color: white
+.iconcartao
+			font-size: 30px
+			margin-bottom: 10px
+
+.bota
+		text-align: center
+		font-family: ('Open Sans')
+		margin-bottom: 30px
+		+breakpoint($tablet1)
+			margin-bottom: 15px
+		.botao
+			border: 2px solid $branco
+			color: $branco
+			text-transform: uppercase
+			font-weight: $bold
+
+			&:hover
+				border-color: $azul
+				color: $azul
+
+			&:focus
+				border-color: $verde
+				color: $verde
+			padding: 7px
+			font-size: 20px
+
+			+breakpoint($tablet1)
+				padding: 5px
+				font-size: 15px
+
+			+breakpoint($celular)
+				padding: 3px
+				font-size: 10px
